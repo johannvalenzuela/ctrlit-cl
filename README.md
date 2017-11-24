@@ -2,7 +2,7 @@ ctrl-it
 
 ## Cambios
 
-- [ ] Quitar del menu el ´blog'.
+- [X] Quitar del menu el ´blog'.
 - [ ] Agregar al menú enlace a Noticias. Esta sera html estática con enlaces externos. Hacer algo atractivo.
 
 ### Menú clientes
