@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
 /* -------------------------------- 
 
 Primary style
@@ -631,7 +633,7 @@ Nosotros
 
 -------------------------------- */
 .nosotros{
-  text-align:center;
+  /* text-align:center; */
 }
 .nosotros .ct-left, .nosotros .ct-right{
   display: inline-block;
@@ -647,24 +649,35 @@ Nosotros
 }
 .nosotros .ct-avatar img{
   width:100%;
-  height;auto;
-}
-.nosotros h3{
-  font-size: 1.5em;
-  font-weight: 700;
-  color: #49b48d;
-  margin-top: 1em;
+  height:auto;
 }
 .nosotros span{
   color:#666666;
 }
-.nosotros .nosotros-header{
-  border-bottom: 1px solid #DDDDDD;
-  border-top: 1px solid #DDDDDD;
+.nosotros-header1{
+  /* border-bottom: 1px solid #DDDDDD;
+  border-top: 1px solid #DDDDDD; */
   color: #666;
-  text-transform: uppercase;
-  padding: 1em;
-  margin-top: 3em;
+  /* text-transform: uppercase; */
+  /* padding: 1em; */
+  /* margin-top: 3em; */
+  font-size: 2.5em;
+  /* font-weight: 700; */
+  margin: 1em;
+  text-align: center;
+  font-weight: 300 !important;
+}
+.nosotros-header2{
+  /* border-bottom: 1px solid #DDDDDD;
+  border-top: 1px solid #DDDDDD; */
+  color: #666;
+  /* text-transform: uppercase; */
+  /* padding: 1em; */
+  /* margin-top: 3em; */
+  font-size: 1.5em;
+  /* font-weight: 700; */
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 /* -------------------------------- 
 
@@ -730,4 +743,41 @@ Javascript disabled
   content: "";
   clear: both;
   display: table;
+}
+
+.ctrlit-section{
+  border-top:  3px solid #1ead88;
+}
+
+.nosotros-parrafo{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.noticias-parrafo{
+  padding-left: 8em;
+  padding-right: 8em;
+}
+
+.noticias-img{
+  width: auto;
+  height: 60px;
+}
+
+.logo-big{
+  margin-bottom: -50px;
+  max-height: 120px;
+}
+
+.ctrlit-button{
+  padding: 12px 30px;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #018F9E;
+  border: 1px solid #007C82;
+  border-radius: 5px;
+  margin: 0 auto;
+  cursor: pointer;
+  float: right;
 }

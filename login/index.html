@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="../css/reset.css">
+	<!-- CSS reset -->
+	<link rel="stylesheet" href="../css/style.css">
+	<!-- Resource style -->
+	<link type="text/css" rel="stylesheet" href="../css/lightslider.min.css" />
+	<script src="../js/jquery-2.1.1.js"></script>
+	<script src="../js/lightslider.min.js"></script>
+	<script src="../js/jquery.vide.min.js"></script>
+	<!-- Vide -->
+	<script src="../js/main.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#lightSlider").lightSlider({
+				auto: true,
+				loop: true,
+				controls: false,
+				pause: 1000
+			});
+		});
+	</script>
+
+	<title>CTRL IT - Nosotros</title>
+</head>
+
+<body id="page-nosotros">
+	<header class="cd-header">
+		<div id="cd-logo">
+			<a href="/">
+				<img src="../assets/ctrl_it_logo.png" alt="CTRL IT">
+			</a>
+		</div>
+		<nav class="cd-primary-nav">
+			<ul>
+				<li>
+					<a class="scroll" href="/">Inicio</a>
+				</li>
+				<li>
+					<a class="scroll" href="#servicios">Servicio</a>
+				</li>
+				<li>
+					<a href="/nosotros">Nosotros</a>
+				</li>
+				<li>
+					<a href="/noticias">Noticias</a>
+				</li>
+				<li>
+					<a class="scroll" href="#contacto">Contacto</a>
+				</li>
+				<li>
+					<a href="http://app.ctrlit.cl/ctrl/">Acceso Clientes</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- .cd-primary-nav -->
+	</header>
+	<div class="cd-main-content login">
+		<div style="text-align:center;">
+			<img src="../assets/logo-big.png" class="logo-big">
+			<h1 class="nosotros-header1">Iniciar Sesión</h1>
+		</div>
+		<section>
+			<div class="row">
+				<div class="col-4 col-m-1"></div>
+				<div class="col-4 col-m-10">
+					<form action="">
+						<div class="row">
+							<input class="col-12" placeholder="USUARIO" name="nombre" id="ct-nombre" type="text">
+						</div>
+						<br>
+						<div class="row">
+								<input class="col-12" placeholder="CONTRASEÑA" name="password" id="ct-nombre" type="password">
+						</div>
+						<br>
+						<div class="row">
+							<input type="checkbox" name="vehicle" value="Bike"> RECORDARME
+						</div>
+						<br>
+						<div class="row">
+								<input name="submit" id="ct-submit" value="Entrar" type="submit" class="ctrlit-button">
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="ct-footer">
+		<div class="ct-wrapper">
+			<span>
+				<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<a href="https://www.google.com/maps/place/Sta+Beatriz+111,+Providencia,+Regi%C3%B3n+Metropolitana,+Chile/@-33.426685,-70.620243,17z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x9662cf63af4fa83b:0xbef1a201c0d998b6!2sSta+Beatriz+111,+Providencia,+Regi%C3%B3n+Metropolitana,+Chile!2m2!1d-70.6180543!2d-33.4266895!3m4!1s0x9662cf63af4fa83b:0xbef1a201c0d998b6!8m2!3d-33.4266895!4d-70.6180543">Santa Beatriz 111, Oficina 902, Providencia, RM.</a>
+			</span>
+			<span>
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+				<a href="mailto:info@ctrlit.cl">info@ctrlit.cl</a>
+			</span>
+			<span>
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				<a href="tel:+56232450634">Contacto Comercial: +562 3245 0634</a>
+			</span>
+			<span>
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				<a href="tel:+56232450607">Soporte: +562 3245 0607</a>
+			</span>
+		</div>
+	</div>
+</body>
+
+</html>
