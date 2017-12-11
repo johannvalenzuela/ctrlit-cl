@@ -781,3 +781,11 @@ Javascript disabled
   cursor: pointer;
   float: right;
 }
+.clientes-img{
+  padding: 6%;
+  height: 20em;
+  line-height: 20em;
+}
+.clientes-img > img {
+  vertical-align: middle;
+}
